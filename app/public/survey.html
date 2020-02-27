@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Office Friends</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h2 class="text-center">Survey Questions</h2>
+            <hr class="my-4">
+            <h3 class="text-center">Your info</h3>
+            <br>
+            <h4>Name</h4>
+            <input type="text" id="name" class="form-control" placeholder="required">
+            <br>
+            <h4>Photo</h4>
+            <input type="text" id="photo" class="form-control" placeholder="required">
+        </div>
+
+        <div class="card-body">
+            <h3>Question 1</h3>
+            <h5 class="card-title">You never get tired of romantic gestuers</h5>
+            <select id="q1" class="multi-choice">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <div class="card-body">
+            <h3>Question 2</h3>
+            <h5 class="card-title">You love art</h5>
+            <select id="q2" class="multi-choice">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <div class="card-body">
+            <h3>Question 3</h3>
+            <h5 class="card-title">Identity theft is not a joke to you</h5>
+            <select id="q3" class="multi-choice">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <div class="card-body">
+            <h3>Question 4</h3>
+            <h5 class="card-title">You are not superstitious but a little stitious</h5>
+            <select id="q4" class="multi-choice">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <div class="card-body">
+            <h3>Question 5</h3>
+            <h5 class="card-title">Cornell is the best school in the country</h5>
+            <select id="q5" class="multi-choice">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <div class="card-body">
+            <h3>Question 6</h3>
+            <h5 class="card-title">Bo-Body is a great business model</h5>
+            <select id="q6" class="multi-choice">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <div class="card-body">
+            <h3>Question 7</h3>
+            <h5 class="card-title">You enjoy crossword puzzels</h5>
+            <select id="q7" class="multi-choice">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <div class="card-body">
+            <h3>Question 8</h3>
+            <h5 class="card-title">You love a big bowl of chili</h5>
+            <select id="q8" class="multi-choice">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <div class="card-body">
+            <h3>Question 9</h3>
+            <h5 class="card-title">You think your hard work goes unnoticed</h5>
+            <select id="q9" class="multi-choice">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <div class="card-body">
+            <h3>Question 10</h3>
+            <h5 class="card-title">You enjoy going to trivia nights</h5>
+            <select id="q10" class="multi-choice">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <br>
+
+        <button type="button" id="surv-submit" class="btn btn-primary btn-lg btn-block">Submit Survey</button>
+
+
+        
+          
+          <!-- Modal -->
+          <div class="modal fade" id="resultsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalCenterTitle">Your Office Friend!</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <h2 class="text-center" id="matchName"></h3>
+                    <img id="matchImg" alt="">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          
+          <br>
+    
+
+
+
+
+    </div>
+
+
+
+    <script type="text/javascript">
+
+        $("#surv-submit").on("click", function (event) {
+            event.preventDefault();
+
+                function validate() {
+                    let valid = true;
+
+                    $(".form-control").each(function () {
+                        if ($(this).val() === "") valid = false;
+                    });
+                    $(".multi-choice").each(function () {
+                        if ($(this).val() === "") valid = false;
+                    });
+                    return valid;
+                }
+        
+
+        if (validate() === true) {
+            let userInfo = {
+                name: $("#name").val().trim(),
+                photo: $("#photo").val().trim(),
+                scores: [
+                    $("#q1").val(),
+                    $("#q2").val(),
+                    $("#q3").val(),
+                    $("#q4").val(),
+                    $("#q5").val(),
+                    $("#q6").val(),
+                    $("#q7").val(),
+                    $("#q8").val(),
+                    $("#q9").val(),
+                    $("#q10").val()
+                ]
+            };
+            $.post("/api/friends", userInfo, function(data) {
+                $("#matchName").text(data.name);
+                $("#matchImg").attr("src", data.photo);
+                $("#resultsModal").modal("toggle");
+            });
+        } else {
+            alert("Please complete all fields before submitting survey!")
+        }
+
+        });
+
+    </script>
+    
+</body>
+</html>
