@@ -1,3 +1,8 @@
+body {
+  background-image: url(../image/backgroundOffice.jpg);
+  background-size: 100%;
+}
+
 #jumbo {
   background-image: url(../image/maybe.jpg);
   background-size: cover;
