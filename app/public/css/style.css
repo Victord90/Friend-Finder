@@ -6,14 +6,24 @@ body {
 #jumbo {
   background-image: url(../image/maybe.jpg);
   background-size: cover;
+  opacity: 0.8;
+  height: 480px;
+  position: relative;
 }
 
 .textcolor {
-  color: whitesmoke;
+  position: relative;
+  color: white;
+}
+
+.surveyButton {
+  animation: pulse 0.8s infinite, magnified 0.8s infinite;
+  position: absolute;
+  margin-left: 40%;
 }
 
 .surveyButton:hover {
-  animation: pulse 0.8s infinite, magnified 0.8s infinite;
+  animation: none;
 }
 
 @keyframes magnified {
